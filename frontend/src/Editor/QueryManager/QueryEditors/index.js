@@ -12,6 +12,7 @@ import { Dynamodb } from './Dynamodb';
 import { Airtable } from './Airtable';
 import { Graphql } from './Graphql';
 import { Mssql } from './Mssql';
+import { Typesense } from './Typesense'
 
 export const allSources = {
   Restapi,
@@ -27,5 +28,6 @@ export const allSources = {
   Dynamodb,
   Airtable,
   Graphql,
-  Mssql
+  Mssql,
+  Typesense
 };

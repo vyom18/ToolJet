@@ -119,6 +119,21 @@ export const dataBaseSources = [
       username: { type: 'string' },
       password: { type: 'string', encrypted: true }
     }
+  },
+  {
+    name: 'Typesense',
+    kind: 'typesense',
+    exposedVariables: {
+      isLoading: {},
+      data: {},
+      rawData: {}
+    },
+    options: {
+      host: { type: 'string' },
+      port: { type: 'string' },
+      username: { type: 'string' },
+      password: { type: 'string', encrypted: true }
+    }
   }
 ];
 
