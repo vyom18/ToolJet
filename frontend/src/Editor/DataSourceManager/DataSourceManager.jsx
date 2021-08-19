@@ -136,6 +136,7 @@ class DataSourceManager extends React.Component {
 
     const sourceComponentName = kind.charAt(0).toUpperCase() + kind.slice(1);
     const ComponentToRender = SourceComponents[sourceComponentName];
+    console.log(options)
     return (
       <ComponentToRender
         optionchanged={this.optionchanged}

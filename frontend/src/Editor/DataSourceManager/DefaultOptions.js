@@ -26,6 +26,12 @@ export const defaultOptions = {
     username: { value: '' },
     password: { value: '' }
   },
+  typesense: {
+    host: { value: 'localhost' },
+    port: { value: 6379 },
+    username: { value: '' },
+    password: { value: '' }
+  },
   mongodb: {
     database: { value: '' },
     host: { value: 'localhost' },
