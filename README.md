@@ -4,7 +4,7 @@
   Build and deploy internal tools
 </p>
 
-ToolJet is an **open-source no-code framework** to build and deploy internal tools quickly without much effort from the engineering teams. You can connect to your data sources, such as databases (like PostgreSQL, MongoDB, Elasticsearch, etc), API endpoints (ToolJet supports importing OpenAPI spec & OAuth2 authorization), and external services (like Stripe, Slack, Google Sheets, Airtable) and use our pre-built UI widgets to build internal tools.
+ToolJet is an **open-source no-code framework** to build and deploy internal tools quickly without much effort from the engineering teams. You can connect to your data sources, such as databases (PostgreSQL, MongoDB, Elasticsearch, etc.). API endpoints (ToolJet supports importing OpenAPI spec & OAuth2 authorization), external services (like Stripe, Slack, Google Sheets, Airtable), and use our pre-built UI widgets to build internal tools.
 
 ![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/tooljet/tooljet-ce)
 ![GitHub contributors](https://img.shields.io/github/contributors/tooljet/tooljet)
@@ -27,11 +27,11 @@ ToolJet is an **open-source no-code framework** to build and deploy internal too
 
 ## Features
 
-- Visual app builder with widgets, such as tables, charts, modals, buttons, dropdowns, and more.
+- Visual app builder comes with widgets, such as tables, charts, modals, buttons, dropdowns, and more.
 - Mobile 📱 & desktop layouts 🖥
 - Dark mode 🌛
 - Connect to databases, APIs, and external services.
-- Deploy on-premise (supports docker, kubernetes, heroku, and more)
+- Deploy on-premise (supports docker, Kubernetes, Heroku, and more)
 - Granular access control on organization-level and app-level.
 - Write JS code almost anywhere in the builder.
 - Query editors for all supported data sources.
@@ -63,7 +63,7 @@ Documentation is available at https://docs.tooljet.io.
 - [Widget Reference](https://docs.tooljet.io/docs/widgets/button)
 
 ## Branching model
-We use the git-flow branching model. The base branch is `develop`. If you are looking for a stable version, please use the main branch or tags labeled as v1.x.x.
+We use the git-flow branching model. The base branch is `develop.` If you are looking for a stable version, please use the main component or tags labeled as v1.x.x.
 
 ## Contributing
 Kindly read our [Contributing Guide](CONTRIBUTING.md) to learn and understand about our development process, how to propose bug fixes and improvements, and how to build and test your changes to ToolJet. <br>
